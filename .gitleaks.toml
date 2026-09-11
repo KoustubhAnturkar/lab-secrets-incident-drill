@@ -1,2 +1,6 @@
 [extend]
 useDefault = true
+
+[[allowlists]]
+targetRules = ["generic-api-key"]
+paths = ['''^tests/fixtures/service-response.json$''']
